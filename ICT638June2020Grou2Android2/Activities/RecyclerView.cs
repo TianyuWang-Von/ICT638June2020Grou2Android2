@@ -9,13 +9,16 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
+using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
+using ICT638June2020Grou2Android2.Activities;
 
 namespace ICT638June2020Grou2Android2.Activities
 {
     [Activity(Label = "RecyclerView")]
-    public class RecyclerView : Activity
+    public class RecyclerView : AppCompatActivity
     {
         RecyclerView.LayoutManager mLayoutManager;
         RoomList mRoomlist;
@@ -23,9 +26,8 @@ namespace ICT638June2020Grou2Android2.Activities
         RecyclerView recyclerView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.RecyclerView);
             base.OnCreate(savedInstanceState);
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             //recycler view
             mRoomlist = new RoomList();
             recyclerView = FindViewById<RecyclerView>(Resource.Id.recycler1);
