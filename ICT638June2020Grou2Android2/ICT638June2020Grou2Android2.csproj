@@ -66,8 +66,8 @@
     <Compile Include="Activities\Register.cs" />
     <Compile Include="Activities\RoomInfo.cs" />
     <Compile Include="Activities\View.cs" />
-    <Compile Include="HouseActivity.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Activities\HouseActivity.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Room.cs" />
