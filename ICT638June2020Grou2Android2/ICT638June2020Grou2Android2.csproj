@@ -62,8 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\Login.cs" />
-    <Compile Include="Activities\RecyclerView.cs" />
+    <Compile Include="Activities\Recycler_View.cs" />
     <Compile Include="Activities\Register.cs" />
+    <Compile Include="Activities\RoomInfo.cs" />
     <Compile Include="Activities\View.cs" />
     <Compile Include="HouseActivity.cs" />
     <Compile Include="MainActivity.cs" />

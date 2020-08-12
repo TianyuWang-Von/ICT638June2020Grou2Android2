@@ -18,12 +18,12 @@ using ICT638June2020Grou2Android2.Activities;
 namespace ICT638June2020Grou2Android2.Activities
 {
     [Activity(Label = "RecyclerView")]
-    public class RecyclerView : AppCompatActivity
+    public class Recycler_View : AppCompatActivity
     {
-        RecyclerView.LayoutManager mLayoutManager;
+        Android.Support.V7.Widget.RecyclerView.LayoutManager mLayoutManager;
         RoomList mRoomlist;
         RoomPhotoAdapter mAdapter;
-        RecyclerView recyclerView;
+        Android.Support.V7.Widget.RecyclerView recyclerView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             SetContentView(Resource.Layout.RecyclerView);
