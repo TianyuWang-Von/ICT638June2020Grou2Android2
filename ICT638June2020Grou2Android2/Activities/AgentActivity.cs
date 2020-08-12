@@ -23,7 +23,7 @@ namespace ICT638June2020Grou2Android2.Activities
         private EditText edName, edMail, edPhone;
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            SetContentView(Resource.Layout.agent_layout);
+            SetContentView(Resource.Layout.agnet_layout);
             base.OnCreate(savedInstanceState);
 
             //Get Data and Show on Agent Page
