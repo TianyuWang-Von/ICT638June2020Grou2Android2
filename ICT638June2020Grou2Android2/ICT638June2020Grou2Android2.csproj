@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\Login.cs" />
+    <Compile Include="Activities\Register.cs" />
     <Compile Include="Activities\View.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
