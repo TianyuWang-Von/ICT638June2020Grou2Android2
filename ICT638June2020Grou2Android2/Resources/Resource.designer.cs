@@ -4393,7 +4393,8 @@ namespace ICT638June2020Grou2Android2
 			public const int activity_main = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int agent_layout = 2131427357;
+
+			public const int agnet_layout = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
 			public const int browser_actions_context_menu_page = 2131427358;

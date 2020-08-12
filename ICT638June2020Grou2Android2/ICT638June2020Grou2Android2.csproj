@@ -107,7 +107,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\agent_layout.xml">
+    <AndroidResource Include="Resources\layout\agnet_layout.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
