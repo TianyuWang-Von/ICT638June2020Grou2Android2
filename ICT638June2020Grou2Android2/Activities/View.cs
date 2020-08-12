@@ -71,6 +71,15 @@ namespace ICT638June2020Grou2Android2.Activities
 
             Button btnsend = FindViewById<Button>(Resource.Id.btnsend);
             btnsend.Click += Btnsend_Click;
+
+            //Link the Roomlist
+            Button btnRPhoto = FindViewById<Button>(Resource.Id.btnRoomPhoto1);
+            btnRPhoto.Click += BtnRPhoto_Click;
+        }
+
+        private void BtnRPhoto_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(Recycler_View));
         }
 
         public void OnMapReady(GoogleMap googleMap)
