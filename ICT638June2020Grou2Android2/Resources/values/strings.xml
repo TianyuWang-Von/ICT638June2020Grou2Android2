@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">ICT638June2020Grou2Android2</string>
     <string name="action_settings">Settings</string>
+  <string name="btnRoomText">Room Detail</string>
+  <string name="tvRoomInfotext">Room Description</string>
+  <string name="btnBack">Menu</string>
+  <string name="tv1Text">Hi, I am interested in the house at 404 queen st you have posted for rent. Could I please have more details</string>
+  <string name="btn1Text">Share</string>
+  <string name="btn2Text">SMS</string>
+  
 </resources>
