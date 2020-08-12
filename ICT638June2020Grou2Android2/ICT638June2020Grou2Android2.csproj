@@ -69,6 +69,8 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Room.cs" />
+    <Compile Include="RoomList.cs" />
+    <Compile Include="RoomPhotoAdapter.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
