@@ -13,6 +13,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using ICT638June2020Grou2Android2.Activities;
 using Xamarin.Essentials;
 
 namespace ICT638June2020Grou2Android2
@@ -42,6 +43,10 @@ namespace ICT638June2020Grou2Android2
             button1.Click += Button1_Click;
             Button button2 = FindViewById<Button>(Resource.Id.button2);
             button2.Click += Button2_Click;
+
+            //Link to Agent
+            Button btn_agent = FindViewById<Button>(Resource.Id.btn_linkagent);
+            btn_agent.Click += Btn_agent_Click;
 
 
             string url = "https://10.0.2.2:5001/api/RoomInfoes/" + id;
@@ -75,6 +80,12 @@ namespace ICT638June2020Grou2Android2
 
 
         }
+
+        private void Btn_agent_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(AgentActivity));
+        }
+
         //share button
         private async void Button2_Click(object sender, EventArgs e)
         {
