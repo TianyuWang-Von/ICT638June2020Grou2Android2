@@ -24,6 +24,13 @@ namespace ICT638June2020Grou2Android2.Activities
             Button btnLogin = FindViewById<Button>(Resource.Id.btnLoginUser);
             btnLogin.Click += BtnLogin_Click;
 
+            Button btnregister = FindViewById<Button>(Resource.Id.btnGoRegister);
+            btnregister.Click += Btnregister_Click;
+        }
+
+        private void Btnregister_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(Register));
         }
 
         private void BtnLogin_Click(object sender, EventArgs e)
